@@ -1,0 +1,334 @@
+*{
+    margin : 0;
+    font-family: arial;
+    border : border-box;
+ 
+}
+.nav{
+    height :60px;
+    background-color:#0f1111;
+    color:white;
+    display : flex;
+    align-items: center;
+     justify-content: space-evenly;
+}
+.nav-logo{
+    height: 50px;
+    width : 100px;
+}
+
+.logo{
+    background-image:url("WhatsApp\ Image\ 2025-10-08\ at\ 7.07.33\ PM.jpeg");
+    background-size: cover;
+    height :50px;
+    width : 100%;
+}
+.border{
+    border : 1.5px solid transparent;
+}
+.border:hover{
+    border : 1.5px solid white;
+}
+/**address section**/
+.address{
+   color :#cccccc;
+   font-size :0.85rem;
+   margin-left: 15px;
+
+}
+.address1{
+   font-size:1rem;
+}
+.add-icon{
+    display:flex;
+    align-items: center;
+}
+.border{
+    border : 1.5px solid transparent;
+}
+.border:hover{
+    border : 1.5px solid white;
+}
+/**search section**/
+.nav-search{
+    display : flex;
+     justify-content: space-evenly;
+      height: 40px; 
+    width :600px; 
+ 
+    border-radius: 4px;
+    border : 2px solid transparent;
+    
+}
+ 
+.nav-search:hover{
+    border : 2px solid #febd68;
+    box-shadow: 0 0 2px #febd68;
+}
+    .search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius:4px ;
+    border-bottom-left-radius:4px ;
+    border : none;
+ }
+    .search-input{
+        width: 500px;
+        border : none;
+        font-size: 1rem;
+        padding-left: 10px;
+    }
+  
+    
+    .search-icon{
+        width: 45px;
+        display : flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.2rem;
+          color:#0f1111;
+          background-color: #febd68;
+     border-top-right-radius:4px ;
+     border-bottom-right-radius:4px ;  
+    }
+    /**account section**/
+    .hello{
+        font-size: 0.75rem;
+
+    }
+    .account{
+        font-size:0.85rem;
+        font-weight: bold;
+    }
+    .border{
+    border : 1.5px solid transparent;
+    }
+    .border:hover{
+    border : 1.5px solid white;
+     }
+    
+    /**return section**/
+    .return{
+        font-size: 0.75rem;
+
+    }
+    .order{
+        font-size:0.85rem;
+        font-weight: bold;
+    }
+    .border{
+    border : 1.5px solid transparent;
+    }
+    .border:hover{
+    border : 1.5px solid white;
+     }
+        /**cart section**/
+    .nav-cart i {
+        font-size:30px;
+    }
+    .nav-cart p{
+        font-size:0.85rem;
+        font-weight: bold;
+    }
+/**panel section**/
+  .panel{
+    height: 40px;
+    background-color: #222f3d;
+    display : flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+ 
+  .panel-option p{
+    display: inline;
+    margin-left: 15px;
+     
+  }
+  .panel-option{
+    width: 70%;
+    font-size: 0.85rem; 
+  }
+    .panel-electronics{
+        
+        font-size: 0.9rem; 
+        font-weight: bold;
+         
+    }
+    /**hero section**/
+    .hero{
+        height: 350px;
+        background-image: url("hero.jpg");
+        background-size: cover;
+         display: flex;
+        align-items:  flex-end;
+        justify-content: center;
+        
+    }
+    .hero-msg{
+        background-color: rgba(255, 255, 255, 0.8);
+        height: 40px;
+        width: 80%;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        font-size:0.85rem;
+        margin-bottom:25px;
+    }
+    /**shopping section**/
+    .shop-section{
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        background-color:rgb(255, 179, 0) ;
+        padding-bottom: 20px;
+    }
+         .shop-section2{
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        background-color:rgb(205, 200, 192) ;
+        padding-bottom: 20px;
+    }
+    .box{
+        height :400px;
+        width:23%;
+        background-color: white;
+        padding: 15px 0px 0px 15px;
+  
+    }
+    .box-img{
+     height: 250px;
+     background-size: cover;
+     margin-top: 1rem;
+     margin-bottom: 1rem;
+   } 
+   .box-content{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+   }
+    .box-content p{
+      font-size: 0.85rem; 
+     margin-bottom: 25px;
+    }
+     .box-content a{
+     text-decoration: none;
+     }
+
+.box2-section {
+  display: flex;               
+  justify-content: space-around;  
+  align-items: center; 
+   flex-wrap: wrap;            
+}
+
+.box2-content {
+    height: 100px;
+    width:  150px;
+    margin-top: 20px;
+}
+.box2-content p{
+     font-size: 0.85rem; 
+    margin-top: 5px;
+  
+}
+   .box2-img{
+    height: 100px;
+     background-size: cover;
+   }
+   .first-section{
+    /* width: 100%; */
+    /* height: 200px; */
+    padding-bottom: 20px;
+     background-color: rgb(205, 200, 192);
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+         
+   }
+
+   .boxf{
+    height: 190px;
+    width: 15%;
+    background-color: white;
+    margin:10px
+   }
+   .boxf1-img{
+    height: 190px;
+     background-size: cover;
+   }
+   /**footer section**/
+   .foot_panal1{
+    height: 50px;
+    background-color: #37475a;
+    color: white;
+    display : flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+   }
+   .foot_panal2{
+    height: 300px;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    
+   }
+   ul{
+     
+    margin-top: 30px;
+   }
+   ul a{
+    display: block;
+     font-size: 0.85rem;
+     margin-top:10px;
+     color: #dddddd;
+   }
+   .foot-panal3{
+    height: 70px;
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.5px solid white;
+    display : flex;
+    align-items: center;
+    justify-content: center;
+   }
+   .logo1{
+    background-image:url("download\ amazon.png");
+     background-color: hsl(211, 28%, 19%);
+
+    background-size: cover;
+    height :50px;
+    width : 100px;
+   }
+   .select-container{
+    height: 30px;
+    border-radius: 4px;
+    border : 1px solid #cccccc;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+   }
+   .select{
+    height: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+   }
+   .foot-panal4{
+    background-color: #0f1111;
+    color : white;
+    height:80px;
+    font-size:0.7rem;
+    text-align: center;
+   }
+   .pages{
+    padding-top: 25px;
+   }
+   .copyright{
+    margin-top: 5px;
+}
+ 
